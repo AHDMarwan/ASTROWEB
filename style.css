@@ -848,7 +848,7 @@ font-size: 17px;
             .planets{
               width: 400px;
               height: 400px;
-              background-image: url("assets/earth.png");
+              background-image: url("earth.png");
               background-repeat: no-repeat;
               background-size: contain;
               transition:  ease-in-out 2.5s;

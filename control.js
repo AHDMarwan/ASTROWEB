@@ -145,7 +145,7 @@ left.addEventListener("click",()=>{ if(z>0){z-=(screen.width-17)
     planets=["EARTH","MOON","JUPITER","MARS","MERCURY","SATURN","URANUS","VENUS","NEPTUNE"]
     setInterval(() => {
         v.firstElementChild.nextElementSibling.textContent=planets[pl%9]
-        v.firstElementChild.style.backgroundImage="url(assets/"+planets[pl%9]+".png)"
+        v.firstElementChild.style.backgroundImage="url("+planets[pl%9]+".png)"
         
         ;pl++;
        
